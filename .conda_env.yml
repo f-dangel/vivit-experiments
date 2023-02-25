@@ -1,0 +1,12 @@
+name: vivit-experiments
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - pip=21.2.4
+  - python=3.8.5
+  - pip:
+    - -r requirements.txt
+    - -r requirements-dev.txt
+    - -r exp/requirements-exp.txt
+    - -e .
