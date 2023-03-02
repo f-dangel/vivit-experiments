@@ -61,8 +61,9 @@ respective subfolders.
     directional derivatives. The results are stored in the subfolder
     `results/plots/gammas_lambdas`.
 
-    Most of these scripts above use command line arguments to specify the test
-    problem for which the visualization is created. The scripts with the prefix
+    **Note:** Most of these scripts above use command line arguments to specify
+    the test problem for which the visualization is created - running them
+    without this specification will cause an error. The scripts with the prefix
     `run_` automatically call the above plotting scripts for all configurations. 
 
 

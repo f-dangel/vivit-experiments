@@ -20,7 +20,7 @@ with `python=3.8.5` and `pip==21.2.4`.
 
 First, clone the repository and change into the repository's root:
 ```bash
-git clone git@github.com:f-dangel/vivit-experiments.git
+git clone https://github.com/f-dangel/vivit-experiments.git
 cd vivit-experiments
 ```
 
@@ -32,7 +32,7 @@ We recommend using the `conda` environment specified in
 [.conda_eny.yml](`conda_eny.yml`). If you have `conda` installed, you can build
 the environment using the command
 ```bash
-make conda_env
+conda env create --file .conda_env.yml
 ```
 
 and load it with the command
