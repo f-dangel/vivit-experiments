@@ -8,7 +8,7 @@ from config import CHECKPOINTS_OUTPUT
 
 from exp.utils.slurm_utils import SlurmJob
 
-SLURM = True
+SLURM = SlurmJob.sbatch_exists()
 VERBOSE = True
 
 

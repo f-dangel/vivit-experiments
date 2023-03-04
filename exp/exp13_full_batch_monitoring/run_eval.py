@@ -10,7 +10,7 @@ from config import CONFIGURATIONS, EVAL_OUTPUT, config_to_config_str
 
 from exp.utils.slurm_utils import SlurmJob
 
-SLURM = True
+SLURM = SlurmJob.sbatch_exists()
 VERBOSE = True
 
 
